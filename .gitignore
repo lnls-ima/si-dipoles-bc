@@ -13,8 +13,8 @@ Perfil_Dipolo_Anel.xlsx
 Arquivo_XT_STEP/
 
 # Previous model versions
-model-previous/*.gz
-model-previous/*.zip
+#model-previous/*.gz
+#model-previous/*.zip
 
 # Igor Pro Experiments
 *.pxp

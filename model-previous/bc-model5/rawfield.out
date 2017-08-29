@@ -1,0 +1,14 @@
+--- fieldmap ---
+timestamp:                          2015-10-26_08-30-06
+filename:                           2015-10-26_Dipolo_Anel_BC_B3_Modelo5_gap_lateral_0.25mm_peca_3.5mm_-90_12mm_-2000_2000mm.txt
+magnet_label:                       BC_B3_Anel
+magnet_length:                      912.52 mm
+main_coil_current:                  -- A
+magnetic_gap:                       None mm
+control_gap:                        0.0 mm
+ry_grid:                            1 point in [0.0,0.0] mm (step of 0.000000 mm)
+rx_grid:                            205 points in [-90.0,12.0] mm (step of 0.500000 mm)
+rz_grid:                            4001 points in [-2000.0,2000.0] mm (step of 1.000000 mm)
+by@(all)(axis):                     (min:-3.21804 max:+0.00010) (min:-3.21804 max:+0.00009) Tesla
+bx@(all)(axis):                     (min:-0.00000 max:+0.00000) (min:-0.00000 max:+0.00000) Tesla
+bz@(all)(axis):                     (min:-0.00000 max:+0.00000) (min:-0.00000 max:+0.00000) Tesla

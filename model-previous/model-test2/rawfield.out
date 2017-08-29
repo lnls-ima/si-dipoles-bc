@@ -1,0 +1,14 @@
+--- fieldmap ---
+timestamp:                          2015-09-08_11-49-44
+filename:                           2015-09-08_DipoloBC_10.1_x=0.5_FAC.TXT
+magnet_label:                       DipoleBC
+magnet_length:                      0.0 mm
+main_coil_current:                  0 A
+magnetic_gap:                       0.0 mm
+control_gap:                        0.0 mm
+ry_grid:                            1 point in [0.0,0.0] mm (step of 0.000000 mm)
+rx_grid:                            81 points in [-20.0,20.0] mm (step of 0.500000 mm)
+rz_grid:                            3001 points in [-1500.0,1500.0] mm (step of 1.000000 mm)
+by@(all)(axis):                     (min:-3.22759 max:+0.00417) (min:-3.22759 max:+0.00400) Tesla
+bx@(all)(axis):                     (min:-0.00010 max:+0.00078) (min:-0.00000 max:+0.00000) Tesla
+bz@(all)(axis):                     (min:-0.00113 max:+0.00050) (min:-0.00000 max:+0.00000) Tesla
