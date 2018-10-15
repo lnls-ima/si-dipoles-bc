@@ -1,0 +1,14 @@
+--- fieldmap ---
+timestamp:                          2018-10-10_10-41-55
+filename:                           2018-10-10_bc_model13_X=-90_12mm_Z=-1000_1000mm.txt
+magnet_label:                       BC
+magnet_length:                      913.0 mm
+main_coil_current:                  -- A
+main_coil_NI:                       None A
+control_gap:                        1.62 mm
+ry_grid:                            1 point in [0.0,0.0] mm (step of 0.000000 mm)
+rx_grid:                            103 points in [-90.0,12.0] mm (step of 1.000000 mm)
+rz_grid:                            2001 points in [-1000.0,1000.0] mm (step of 1.000000 mm)
+by@(all)(axis):                     (min:-3.23279 max:+0.00135) (min:-3.23279 max:+0.00120) Tesla
+bx@(all)(axis):                     (min:-0.00036 max:+0.00008) (min:-0.00030 max:+0.00003) Tesla
+bz@(all)(axis):                     (min:-0.00043 max:+0.00043) (min:-0.00041 max:+0.00041) Tesla
