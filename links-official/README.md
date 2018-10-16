@@ -1,11 +1,11 @@
 Sirius BC Dipole
 ================
 
-current official model version : model-12
+current official model version : model-13
 
 fieldmap analysis folder       : 3gev
 
-fieldmap file                  : 2017-08-21_bc_model12_X=-90_12mm_Z=-1000_1000mm.txt
+fieldmap file                  : 2018-10-10_bc_model13_X=-90_12mm_Z=-1000_1000mm.txt
 
 
 Observations
