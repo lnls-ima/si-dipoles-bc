@@ -1,5 +1,0 @@
-﻿SI-Dipoles-BC
-
-2018-09-27  Model13  	Change high field pole gap to 10.2mm
-2017-08-25  Model12	Change low field pole profile and gap, include rotating pole island in the model. 
-	
