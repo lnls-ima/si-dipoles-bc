@@ -1,0 +1,22 @@
+#  ==============================================
+# | fac-fma-model.py input_file                  |
+# | Accelerator Physics LNLS                     |
+# |                                              |
+# | Date: 2019-06-19-17:41:31.389                |
+# | generated with 'fieldmaptrack.hallsensor.py' |
+#  ==============================================
+
+# --- Summary ---
+#
+# This script integrates fitted multipoles at each segment of the 
+# hard-edge model
+
+# --- Input parameters ---
+
+# each analysis has an identity label used for naming output files
+config_label                      'BC-analysis'
+
+
+# list with lengths of model segments
+
+model_segmentation            (1, 4, 5, 5, 5, 10, 10, 10, 10, 32, 32, 160, 160, 12, 14, 16, 35)

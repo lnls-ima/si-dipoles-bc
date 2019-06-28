@@ -1,0 +1,47 @@
+#  ==============================================
+# | fac-fma-multipoles.py input_file             |
+# | Accelerator Physics LNLS                     |
+# |                                              |
+# | Date: 2019-06-17-13:53:25.172                |
+# | generated with 'fieldmaptrack.hallsensor.py' |
+#  ==============================================
+
+# --- Summary ---
+#
+# This is the input file for the 'fac-fma-multipoles.py' script
+# this script calculates the multipoles around the reference 
+# trajectory.
+
+
+# --- Input parameters ---
+
+# Each analysis has an identity label used for naming output files
+
+config_label                  'BC-analysis'
+
+
+# the multipoles (m1,m2,...) to be calculated are defined by a list
+# of position x exponents (n1,n2,...):
+#   By = m1 * x^n1 + m2 * x^n2 + ...
+
+multipoles_normal_field_fitting_monomials        (0, 1, 2, 3, 4, 5, 6, 7, 8, 10)   # monomials to be included in the polynomial fit of multipoles
+multipoles_skew_field_fitting_monomials          ()
+
+# Grid of perpendicular points around each point of the reference # trajectory for the polynomial fit of By and Bx
+
+multipoles_perpendicular_grid           _np.linspace(-10,10,41)  # grid of points on perpendicular line to ref trajectory [mm]
+
+# After multipole coeffs are calculated, their normalized strengths
+# at perp. position r0 are calculated (as defined in tracy)
+
+multipoles_r0                     12.0  # [mm] horizontal position at which polynomial fields are calculated relative to the principal multipole
+normalization_monomial            0
+normalization_is_skew             False
+
+# Integrated residual field (converted to kick angle) calculated 
+# from fitted multipoles and from integrated fieldmap are compared.
+# The parameter below lists the monomials which are supposed to 
+# define the main field. The rest makes up for the residual field
+
+normal_multipoles_main_monomials        (0, 1)
+skew_multipoles_main_monomials          ()

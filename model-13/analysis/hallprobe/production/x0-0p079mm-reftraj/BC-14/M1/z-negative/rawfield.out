@@ -1,0 +1,13 @@
+--- fieldmap ---
+timestamp:                          2019-05-07_08-06-59
+filename:                           2019-05-07_BC-14_Hall_X=-72_12mm_Z=-1500_1500mm_ID=1617.dat
+magnet_label:                       BC-14
+magnet_length:                      913.0 mm
+magnetic_gap:                       None mm
+control_gap:                        2.29 mm
+ry_grid:                            1 point in [0.0,0.0] mm (step of 0.000000 mm)
+rx_grid:                            43 points in [-72.0,12.0] mm (step of 2.000000 mm)
+rz_grid:                            6001 points in [-1500.0,1500.0] mm (step of 0.500000 mm)
+by@(all)(axis):                     (min:-3.26983 max:+0.00300) (min:-3.26983 max:+0.00280) Tesla
+bx@(all)(axis):                     (min:-0.00066 max:+0.17470) (min:-0.00059 max:+0.17290) Tesla
+bz@(all)(axis):                     (min:-0.00305 max:+0.05005) (min:-0.00300 max:+0.05005) Tesla
